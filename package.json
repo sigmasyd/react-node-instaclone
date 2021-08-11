@@ -1,0 +1,17 @@
+{
+  "name": "instaclone",
+  "version": "1.0.0",
+  "description": "Servidor de InstaClone",
+  "main": "index.js",
+  "author": "Carlos Barcos",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.1.2",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.6"
+  }
+}
